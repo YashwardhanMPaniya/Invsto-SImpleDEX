@@ -1,8 +1,8 @@
 ### Quickstart
 
 ```
-Deploy TOken A and Token B with 10,000 token each, than transfer 1000 token of both token to SimpleDEX contract and approve it
-'''
+Deploy Token A and Token B with 10,000 token each, than transfer 1000 token of both token to SimpleDEX contract and approve it
+```
 
 ## exchangeTokenAForTokenB 10 Tokens
 
