@@ -40,7 +40,7 @@ logs	[
 ]
 ```
 
-##exchangeTokenBForTokenA 50 tokens
+## exchangeTokenBForTokenA 50 tokens
 
 ```
 status	0x1 Transaction mined and execution succeed
@@ -76,14 +76,21 @@ logs	[
 ```
 
 ### Images
-Token A
+
+## Token A
+```
 ![image](https://github.com/user-attachments/assets/e38c4196-b0c2-46c6-89d1-84c024842a44)
+```
 
-Token B
+## Token B
+```
 ![image](https://github.com/user-attachments/assets/3e355c33-a82b-4dda-a953-e2bf89c8f43a)
+```
 
-SimpleDEX
+## SimpleDEX
+```
 ![image](https://github.com/user-attachments/assets/24de61bd-8261-4520-bcbe-c86921245519)
+```
 
 
 
