@@ -1,0 +1,229 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_tokenB",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_exchangeRate",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newRate",
+						"type": "uint256"
+					}
+				],
+				"name": "ExchangeRateUpdated",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amountA",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amountB",
+						"type": "uint256"
+					}
+				],
+				"name": "ExchangedTokenAForTokenB",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amountB",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amountA",
+						"type": "uint256"
+					}
+				],
+				"name": "ExchangedTokenBForTokenA",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "exchangeRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountA",
+						"type": "uint256"
+					}
+				],
+				"name": "exchangeTokenAForTokenB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountB",
+						"type": "uint256"
+					}
+				],
+				"name": "exchangeTokenBForTokenA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newRate",
+						"type": "uint256"
+					}
+				],
+				"name": "setExchangeRate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenA",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenB",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SimpleDEX.sol": "SimpleDEX"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IERC20.sol": {
+			"keccak256": "0x6504966f4e22a4c2b64021daf881eda01077d0e76ee16e181b520ad02c10db24",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8eca0471a3d254f999d5178c39b2ed28440d2245b82db94714f4f91c6814378e",
+				"dweb:/ipfs/QmWRPCxUEdjuA8EAYR94oqff61uz6TMo9uqmyKCa37M1Na"
+			]
+		},
+		"contracts/SimpleDEX.sol": {
+			"keccak256": "0x1a8524e5f171e1b682323ed6301a5f118f375484e3a2aff141848c2430c98be5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1465d63a836b95ca86c0bcaa5f1277b575b9e3077a1dd2372e4f843c6e87113e",
+				"dweb:/ipfs/QmacAvTm4C2UYyoTbN2kGDd7ViEZHupED12ituykApLSVA"
+			]
+		}
+	},
+	"version": 1
+}
